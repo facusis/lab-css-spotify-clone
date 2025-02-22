@@ -6,3 +6,30 @@ Green: #00B172
 White: #FFF
 
 */
+
+html {
+    font-size: 62.5%; /** 1REM = 10pX **/
+    box-sizing: border-box;
+}
+
+:root {
+    --text: #1A1A1A;	
+    --green: #00B172;
+    --white: #fff;
+}
+
+
+body {
+font-family: 'Roboto', sans-serif;
+margin: 0;
+}
+
+
+/*------------------ NAVBAR --------------------*/
+
+.navbar {
+    /* position: fixed; */
+    display: flex;
+    background-color: var(--white);
+    font-size: 3rem;
+}
